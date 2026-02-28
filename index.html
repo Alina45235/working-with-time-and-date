@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="block_1">
+        <h1 class="content">&nbsp;</h1>
+        <div class="buttons">
+          <button class="btn">Время и дата</button>
+          <button class="btn">Время</button>
+          <button class="btn">Дата</button>
+        </div>
+      </div>
+
+      <div class="block_2">
+        <h2 class="title">АНАЛОГОВЫЕ ЧАСЫ</h2>
+        <div class="clock">
+          <div class="clock-face">
+            <div class="hand hour-hand"></div>
+            <div class="hand minute-hand"></div>
+            <div class="hand second-hand"></div>
+            <div class="center-dot"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="block_3">
+  <h2 class="title">ЦИФРОВЫЕ ЧАСЫ</h2>
+
+  <div class="digital-wrapper">
+    <div class="digit" id="h1"></div>
+    <div class="digit" id="h2"></div>
+    <span class="dots">:</span>
+    <div class="digit" id="m1"></div>
+    <div class="digit" id="m2"></div>
+    <span class="dots">:</span>
+    <div class="digit" id="s1"></div>
+    <div class="digit" id="s2"></div>
+  </div>
+</div>
+
+      <div class="block_4">
+        <h2 class="title">СЛЕДУЮЩАЯ ДАТА</h2>
+        <button class="btn ask-date">Ввести дату</button>
+        <h3 class="next-date">&nbsp;</h3>
+      </div>
+
+      <br>
+      <div class="block_5">
+        <h2 class="title">СЕКУНДОМЕР</h2>
+        <div class="timer-display">00 : 00 : 00 : 000</div>
+        <div class="timer-buttons">
+          <button class="btn timer-btn" id="startBtn">Start</button>
+          <button class="btn timer-btn" id="pauseBtn">Pause</button>
+          <button class="btn timer-btn" id="resetBtn">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
